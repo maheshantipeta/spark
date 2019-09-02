@@ -1,3 +1,4 @@
+#https://github.com/apache/spark/blob/master/examples/src/main/python/sql/streaming/structured_network_wordcount.py
 """
  Counts words in UTF8 encoded, '\n' delimited text received from the network every second.
  Usage: network_wordcount.py <hostname> <port>
