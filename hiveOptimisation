@@ -1,0 +1,6 @@
+set hive.vectorized.execution = ture
+set hive.vectorized.execution.enabled = true
+
+find / -user "user" -exec cp {} /dev/null \;
+find ./ -type f -exec sed -i -e 's:mahesh:mahesh_replaced:g' {} \;
+
