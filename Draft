@@ -4,3 +4,12 @@ set hive.vectorized.execution.enabled = true
 find / -user "user" -exec cp {} /dev/null \;
 find ./ -type f -exec sed -i -e 's:mahesh:mahesh_replaced:g' {} \;
 
+
+1: Create pipiline
+2. Select Artifact(BY selecting options like github,azure repo...)
+3. Create stages(like dev,prod)
+4.Go to tasks,select agent job
+5. Create taks on Agent job
+  1. replace tokens--to replace variables
+  2. copy files over ssh
+  3. SSH--to run any command on edge node
